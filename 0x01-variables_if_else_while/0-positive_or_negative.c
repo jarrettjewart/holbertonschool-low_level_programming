@@ -6,7 +6,7 @@
 * %d: points to the number
 * return: returns 0 for success
 */
-int main (void)
+int main(void)
 {
 int n;
 srand(time(0));
