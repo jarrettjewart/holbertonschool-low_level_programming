@@ -6,7 +6,11 @@
 * main: main determines if number is pos, 0, or neg.
 *
 * %d: points to the number
+<<<<<<< HEAD
 * Return: Returns 0 for success
+=======
+* Return: returns 0 for success
+>>>>>>> 362fb369fa71253f33aec5dddaa7922db7f2f014
 */
 int main(void)
 {
