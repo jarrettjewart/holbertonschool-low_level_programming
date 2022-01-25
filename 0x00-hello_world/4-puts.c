@@ -1,12 +1,14 @@
 #include <stdio.h>
+
+
 /**
- * main - the entery point
+ * main - The entry point
  *
- * Return 0 - exits with return line 0
+ * Return: 0 - exits with return line 0
  */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle"
-);
-return (0);
+  puts("\"Programming is like building a multilingual puzzle"
+       );
+  return (0);
 }
