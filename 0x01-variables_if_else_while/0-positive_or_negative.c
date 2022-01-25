@@ -1,10 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
 * main: main determines if number is pos, 0, or neg.
+*
 * %d: points to the number
-* return: returns 0 for success
+* Return: Returns 0 for success
 */
 int main(void)
 {
