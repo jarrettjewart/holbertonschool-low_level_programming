@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-* _islower - (inct c)
+* _isalpha - (int c)
 * @c: C is the integer
 * Return: is (0)
 */
-int _islower(int c)
+int _isalpha(int c)
 {
 if (c >= 'a' && c <= 'z')
 {
