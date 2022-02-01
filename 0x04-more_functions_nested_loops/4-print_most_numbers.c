@@ -14,5 +14,5 @@ if (count != '2' && count != '4')
 _putchar(count);
 }
 }
-_putchar('\n')
+_putchar('\n');
 }
