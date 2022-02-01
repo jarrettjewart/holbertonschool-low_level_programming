@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check code
+ * more_numbers - check code
  * Return: 0
  */
 void more_numbers(void)
