@@ -2,7 +2,7 @@
 /**
  * mul - multiples a and b
  * @a: Inter a
- * @b: Inter b 
+ * @b: Inter b
  * Return: (0)
  */
 int mul(int a, int b)
