@@ -9,6 +9,6 @@ int mul(int a, int b)
 {
 product = int a * int b;
 {
-return (0);
+return (product);
 }
 }
