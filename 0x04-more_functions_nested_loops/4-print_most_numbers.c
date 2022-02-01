@@ -6,7 +6,7 @@
 */
 void print_numbers(void)
 {
-char count;
+int count;
 for (count = '0'; count <= '9'; count++)
 {
 if (count != '2' && count != '4')
