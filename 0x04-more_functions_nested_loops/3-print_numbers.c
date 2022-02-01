@@ -7,8 +7,10 @@
 void print_numbers(void)
 {
 char x;
-for (x = '0'; x <= '9'; x++)
-putchar(x);
-putchar('\n');
-return (void);
+int count;
+for (count = '0'; count <= '9'; count++)
+{
+if (count != '2' || count != '4')
+{
+_putchar(count)
 }
