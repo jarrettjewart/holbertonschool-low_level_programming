@@ -4,7 +4,7 @@
 *
 * Return: 0
 */
-void print_numbers(void)
+void print_most_numbers(void)
 {
 int count;
 for (count = '0'; count <= '9'; count++)
