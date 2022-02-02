@@ -6,10 +6,8 @@
  * @temp: 3rd int
  * Return: 0
  */
-void swap_int(int *a, int *b)
+void swap_int(int *a, int *b, int temp)
 {
-	int temp;
-
 	temp = *b;
 	*b = *a;
 	*a = temp;
