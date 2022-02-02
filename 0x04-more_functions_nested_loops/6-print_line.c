@@ -1,11 +1,12 @@
-#include "main.h"/**
+#include "main.h"
+/**
 * print_line - function to print the line
 * @n: number of spaces inputted
 * Return: void
 */
 void print_line(int n)
 {
-int line;	
+int line;
 if (n > 0)
 {
 for (line = 0; line < n; line++)
