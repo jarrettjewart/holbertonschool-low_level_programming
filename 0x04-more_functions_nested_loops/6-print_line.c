@@ -2,7 +2,8 @@
 * print_line - function to print the line
 * @n: number of spaces inputted
 * Return: void
-*/void print_line(int n)
+*/
+void print_line(int n)
 {
 int line;	
 if (n > 0)
