@@ -16,8 +16,8 @@ void rev_string(char *s)
 	}
 	for (y = x - 1; y >= x / 2; y--)
 	{
-		reverse = s[y]
+		rev = s[y];
 			s[y] = s[x - y - 1];
-		s[x - y -1] = reverse;
+		s[x - y - 1] = rev;
 	}
 }
