@@ -21,7 +21,7 @@ int main(void)
 		{
 		printf(" Buzz");
 		}
-		else if (x == 1)
+		else if (i == 1)
 		{
 			printf("%d ", i);
 			}
