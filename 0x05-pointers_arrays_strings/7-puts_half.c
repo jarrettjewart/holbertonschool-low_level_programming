@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts_half - prints half of string 
+ * puts_half - prints half of string
  * @str: string
  * Return: 0
  */
@@ -20,7 +20,7 @@ void puts_half(char *str)
 	}
 	else
 	{
-		half = ((length +1) / 2);
+		half = ((length + 1) / 2);
 	}
 	for (s = half; s < length; s++)
 	{
