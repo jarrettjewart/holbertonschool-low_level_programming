@@ -1,0 +1,16 @@
+#include "main.h"
+
+/**
+ * *_strchr - main function
+ * @s: 1 vari
+ * @c: 2 vari
+ * Return: null
+ */
+
+char *_strchr(char *s, char c)
+{
+	do {
+		if (*s == c) return s;
+	}  while (*s++);
+	return NULL;
+}
