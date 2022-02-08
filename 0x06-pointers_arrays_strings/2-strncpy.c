@@ -22,5 +22,5 @@ char *_strncpy(char *dest, char *src, int n)
 			}
 		}
 	}
-	retur (dest);
+	return (dest);
 }
