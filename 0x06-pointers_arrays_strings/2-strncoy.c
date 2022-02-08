@@ -1,4 +1,5 @@
-#include "holberton.h"
+i#include "holberton.h"
+
 /**
  * _strncpy - main function
  * @dest: 1 var
@@ -7,10 +8,9 @@
  * Return: 0
  */
 
-char *_strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, chr *src, int n)
 {
 	int i;
-
 	for (i = 0; i < n; i++)
 	{
 		dest[i] = src[i];
