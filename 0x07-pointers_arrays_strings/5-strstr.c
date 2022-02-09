@@ -5,6 +5,7 @@
  * @needle: 2 vari
  * Return: 0
  */
+char *_strstr(char *haystack, char *needle)
 {
 	int a;
 	int b;
