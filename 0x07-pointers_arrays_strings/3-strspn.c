@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * pointers_arrays - main function
+ * _strspn - main function
  * @s: 1 vari
  * @accept: 2 vari
  * Return: s
@@ -9,7 +9,7 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	int x,y;
+	int x, y;
 
 	for (x = 0; s[x] != 10; x++)
 	{
