@@ -2,7 +2,7 @@
 /**
  * _puts_recursion - recursive string
  * @s: 1 vari
- * Return: 0
+ * Return: void
  */
 
 void _puts_recursion(char *s)
@@ -13,5 +13,5 @@ void _puts_recursion(char *s)
 		return;
 	}
 	_putchar(*s);
-	_putchar(++s);
+	_puts_recursion(++s);
 }
