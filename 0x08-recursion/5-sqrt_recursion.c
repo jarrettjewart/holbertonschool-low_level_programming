@@ -1,6 +1,6 @@
 #include "main.h"
-
-/** _sqrt - main function
+/**
+ *  _sqrt - main functioin
  * @y: 1 vari
  * @x: 2 vari
  * Return: 0
