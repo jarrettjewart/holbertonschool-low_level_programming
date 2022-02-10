@@ -1,12 +1,12 @@
 #include "main.h"
 
-/** _sqrt_recursion - main function
+/** _sqrt - main function
  * @y: 1 vari
  * @x: 2 vari
  * Return: 0
  */
 
-int _sqrt_recursion(int x, int y)
+int _sqrt(int x, int y)
 {
 	int sqrt = y * y;
 
