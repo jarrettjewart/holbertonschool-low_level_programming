@@ -8,13 +8,13 @@
 
 int main(int argc, char *argv[])
 {
-	int z = 0;
+	int sum = 0;
 	int x;
 	int y;
 
 	if (argc < 2)
 	{
-		printf("%d\n", z);
+		printf("%d\n", sum);
 		return (0);
 	}
 	for (x = 1; x < argc; x++)
@@ -27,10 +27,8 @@ int main(int argc, char *argv[])
 				return (1);
 			}
 		}
-		z += atoi(argv[x]);
+		sum += atoi(argv[x]);
 	}
-	printf("%d\n", x);
-}
-printf("%d\n", z);
+	printf("%d\n", sum);
 return (0);
 }
