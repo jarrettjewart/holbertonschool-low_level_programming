@@ -30,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	for (string = 0; s1[string]; string++) 
+	for (string = 0; s1[string]; string++)
 	{
 		array[concat_string++] = s1[string];
 	}
