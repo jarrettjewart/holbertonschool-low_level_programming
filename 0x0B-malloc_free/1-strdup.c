@@ -5,7 +5,7 @@
  * Return: Null
  */
 
-char *strdup(char *str)
+char *_strdup(char *str)
 {
 	char *y;
 	unsigned int x, strlen = 0;
