@@ -5,7 +5,7 @@
  * @head: double ptr in the list
  */
 
-void free_listint2(listint_t **)
+void free_listint2(listint_t **head)
 {
 	listint_t *update;
 
@@ -15,6 +15,6 @@ void free_listint2(listint_t **)
 	{
 		update = (*head)->update;
 		free(*head);
-		*head = udpdate;
+		*head = update;
 	}
 }
