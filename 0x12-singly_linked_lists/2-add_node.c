@@ -17,7 +17,7 @@ unsigned int _strlen(char *str)
 
 /**
  * add_node - adds node to linked list
- * @head: ptr to linked list 
+ * @head: ptr to linked list
  * @str: str to add
  * Return: node added
  */
