@@ -9,7 +9,7 @@ void check97(int argc)
 {
 	if (argc != 3)
 	{
-		dprintf(ATDERR_FILENO, "Usage: cp file_from_to\n");
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
 }
