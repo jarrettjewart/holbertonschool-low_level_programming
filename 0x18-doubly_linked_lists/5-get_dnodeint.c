@@ -23,7 +23,7 @@ dlistint_t *getdnodeint_at_index(dlistint_t *head, unsigned int index)
 		count++;
 	}
 	if ((count < index) || (curr == NULL))
-		reuturn (NULL);
+		return (NULL);
 	else
 		return (curr);
 }
