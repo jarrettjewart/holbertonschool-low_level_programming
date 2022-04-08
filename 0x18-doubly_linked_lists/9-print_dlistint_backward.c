@@ -8,9 +8,9 @@
  * Return: ptr to new node
  */
 
-dlistint_t *create_dnode(int n, dilistint_t *prev, dlistint_t *next)
+dlistint_t *create_dnode(int n, dlistint_t *prev, dlistint_t *next)
 {
-	dlistint_T *new;
+	dlistint_t *new;
 
 	new = malloc(sizeof(dlistint_t));
 	if (new == NULL)
@@ -53,10 +53,10 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	}
 	if ((count == idx) && (curr == NULL))
 	{
-		localPREV->next = create_dnode(n, localPrev, NULL);
+		localPrev->next = create_dnode(n, localPrev, NULL);
 		return (localPrev->next);
 	}
-	if ((count < idx) && (curr == NULL)
+	if ((count < idx) && (curr == NULL))
 			return (NULL);
 			if (localPrev != NULL)
 			{
